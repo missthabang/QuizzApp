@@ -1,0 +1,467 @@
+<ion-header>
+  <ion-navbar color="darkolivegreen">
+    <ion-title padding>
+     <H1><b>WELCOME TO QUIZZ ME</b></H1>
+   
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div class="time" ><h5>START TIME: {{timerVal}}</h5></div>
+<br>
+<div  color="darkolivegreen"> 
+  <br> 
+  <br> 
+  <br> 
+  <h1>FOOD AND DRINK</h1>
+
+   
+   <img src="../../assets/imgs/food.gif" alt="" width="100%" height="50%">
+   <h3>1. What is the real meaning of the greek word Pita?</h3>
+    <ion-item>
+      <ion-label>Love</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>Bread</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "bread"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Code</ion-label>
+        <ion-checkbox color="dark" ></ion-checkbox>
+      </ion-item>
+
+   <h3>2. What is the chemical formula for table salt?</h3>
+   <ion-item>
+      <ion-label>Ti</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>NaC1</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "NaC1"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>H2O</ion-label>
+        <ion-checkbox color="dark" ></ion-checkbox>
+      </ion-item>
+  
+   <h3>3. Which cheese is traditionally used for pizza?</h3>
+   <ion-item>
+      <ion-label>Cheddar</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>Sweet Milk</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Mozzarella</ion-label>
+        <ion-checkbox color="dark"[(ngModel)] = "Mozzarella"></ion-checkbox>
+      </ion-item>
+
+   <h3>4. What is the Hungarian word for pepper?</h3>
+   <ion-item>
+      <ion-label>Cinnamon</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>Parsely</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Paprika</ion-label>
+        <ion-checkbox color="dark"[(ngModel)] = "Paprika"></ion-checkbox>
+      </ion-item>
+
+   <h3>5. What is the most famous Mexican beer?</h3>
+   <ion-item>
+      <ion-label>Corona</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "Corona"></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>Peroni</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Miller</ion-label>
+        <ion-checkbox color="dark"></ion-checkbox>
+      </ion-item>
+
+
+   <img src="../../assets/imgs/music.gif" alt=""width="100%" height="50%">
+   <h3>1. How many strings does a mandolin have?</h3>
+   <ion-item>
+      <ion-label>sixteenstrings</ion-label>
+      <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>twostrings</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>eightstrings</ion-label>
+        <ion-checkbox color="dark" [(ngModel)] = "eightstrings"></ion-checkbox>
+      </ion-item>
+
+   <h3>2. What is the biggest hit by Bring Crosby?</h3>
+   <ion-item>
+      <ion-label>No Christmas</ion-label>
+      <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+   <ion-item>
+      <ion-label>Black Christmas</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>White Christmas</ion-label>
+        <ion-checkbox color="dark"[(ngModel)] = "WhiteChristmas"></ion-checkbox>
+      </ion-item>
+
+   <h3>3. What is the surname of the singer Rihanna?</h3>
+   <ion-item>
+    <ion-label>Davids</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+ <ion-item>
+    <ion-label>Fenry</ion-label>
+    <ion-checkbox color="dark"[(ngModel)] = "Fenry" ></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Henry</ion-label>
+      <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+   <h3>4. Which pop group had a hit called Angel Eyes in the seventies?</h3>
+    <ion-item>
+    <ion-label>Roxy Music</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "RoxyMusic"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Rocky Road</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Real Roxy</ion-label>
+      <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+   <h3>5. What is Madonna's full name?</h3>
+   <ion-item>
+    <ion-label>Madonna Louw</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Madonna Lot</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Madonna Louis</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "MadonnaLouis"></ion-checkbox>
+    </ion-item>
+
+   <h1>FILM</h1>
+   <img src="../../assets/imgs/film2.gif" alt=""width="100%" height="50%">
+   <h3>1. Who is the director of the X files?</h3>
+   <ion-item>
+    <ion-label>Jack Parrow</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Idris Alba</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Rob Bowman</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "RobBowman"></ion-checkbox>
+    </ion-item>
+
+   <h3>2. What number is on Herbie the beattle?</h3>
+   <ion-item>
+    <ion-label>Fifty Three</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "FiftyThree"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Fourty two</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Fifty one</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>3. What is the profession of Popeye?</h3>
+   <ion-item>
+    <ion-label>Carpenter</ion-label>
+    <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Sailor Man</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "Sailor"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Viking</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>4. Give the name of the best James Bond parody?</h3>
+   <ion-item>
+    <ion-label>Austin Powers</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "AustinPowers"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Hercules</ion-label>
+    <ion-checkbox color="dark" ></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Bond. James Bond</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>5. Which Malformation did Marrilyn Monroe have when she was born?</h3>
+   <ion-item>
+    <ion-label>Halotosis</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Hunch back</ion-label>
+    <ion-checkbox color="dark" ></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Six Toes</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "Sixtoes"></ion-checkbox>
+    </ion-item>
+
+   <h1>SCIENCE</h1>
+   <img src="../../assets/imgs/science.gif" alt=""width="100%" height="50%">
+   <h3>1. What color is cobalt?</h3>
+   <ion-item>
+    <ion-label>yellow</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Blue</ion-label>
+    <ion-checkbox color="dark"[(ngModel)] = "blue" ></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>White</ion-label>
+      <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+   <h3>2. Who invented the berometer?</h3>
+   <ion-item>
+    <ion-label>George Washington</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Albert Einstein</ion-label>
+    <ion-checkbox color="dark" ></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Terricelli</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "Terricelli"></ion-checkbox>
+    </ion-item>
+
+   <h3>3. What are the three primary colors?</h3>
+   <ion-item>
+    <ion-label>Pink, Yellow, Red</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Blue, Yellow, Red</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "byr"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Green, Yellow, Pink</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>4. What is the lightest existing metal?</h3>
+   <ion-item>
+    <ion-label>Stainless</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Aliminium</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "Aliminium"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Lead</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>5. Which planet is closest to the sun?</h3>
+   <ion-item>
+    <ion-label>Earth</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Mars</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Mercury</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "Mercury"></ion-checkbox>
+    </ion-item>
+
+   <h1>GENERAL</h1>
+   <img src="../../assets/imgs/science1.gif" alt=""width="100%" height="50%">
+   <h3>1. What is the largest number of 5 digits?</h3>
+   <ion-item>
+    <ion-label>99999</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "fivenines"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>55555</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>10000</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>2. What is the most fractured human bone?</h3>
+   <ion-item>
+    <ion-label>Ribs</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Palvic Gidle</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Clavical</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "Clavical" ></ion-checkbox>
+    </ion-item>
+
+   <h3>3. In what year did princess Diana die?</h3>
+   <ion-item>
+    <ion-label>2018</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>2003</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>1997</ion-label>
+      <ion-checkbox color="dark" [(ngModel)] = "ninetyseven" ></ion-checkbox>
+    </ion-item>
+
+   <h3>4. What is the name of the Indian holy river?</h3>
+   <ion-item>
+    <ion-label>Ganges</ion-label>
+    <ion-checkbox color="dark"  [(ngModel)] = "Ganges"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>Nile</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Apies</ion-label>
+      <ion-checkbox color="dark" ></ion-checkbox>
+    </ion-item>
+
+   <h3>5. How long (in miles) is the great wall of China?</h3>
+   <ion-item>
+    <ion-label>4000 Miles</ion-label>
+    <ion-checkbox color="dark" [(ngModel)] = "fourthousand"></ion-checkbox>
+    </ion-item>
+
+ <ion-item>
+    <ion-label>2000 Miles</ion-label>
+    <ion-checkbox color="dark"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>500 Miles</ion-label>
+      <ion-checkbox color="dark"  ></ion-checkbox>
+    </ion-item>
+
+
+
+  <div *ngIf="results">
+   
+    1.Your answer is:{{bread}}
+    2.Your answer is:{{NaC1}}
+    3.Your answer is:{{eightstrings}}
+    4.Your answer is:{{Corona}}
+    5.Your answer is:{{Mozzarella}}
+    6.Your answer is:{{Paprika}}
+    7.Your answer is:{{WhiteChristmas}}
+    8.Your answer is:{{Fenry}}
+    9.Your answer is:{{RoxyMusic}}
+    10.Your answer is:{{MadonnaLouis}}
+    11.Your answer is:{{RobBowman}}
+    12.Your answer is:{{FiftyThree}}
+    13.Your answer is:{{Sailor}}
+    14.Your answer is:{{AustinPowers}}
+    15.Your answer is:{{Sixtoes}}
+    16.Your answer is:{{Terricelli}}
+    17.Your answer is:{{byr}}
+    18.Your answer is:{{Aliminium}}
+    19.Your answer is:{{Mercury}}
+    20.Your answer is:{{fivenines}}
+    21.Your answer is:{{Clavical}}
+    22.Your answer is:{{ninetyseven}}
+    23.Your answer is:{{Ganges}}
+    24.Your answer is:{{fourthousand}}
+
+    <br>
+    {{show}}
+     <br>
+    <h5>Your score out of 25   is: {{score}}</h5>
+
+  </div>
+
+   <button ion-button block (click) = "viewResults()">Finish and Submit</button>
+   </div>
+</ion-content>
